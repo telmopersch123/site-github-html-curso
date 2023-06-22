@@ -199,7 +199,6 @@ footer{
 footer > p{
     margin: 0px;
 }
-
 @media screen and (max-width: 600px) {
     body
     main{
@@ -210,6 +209,18 @@ footer > p{
         }
         div > ul{
             columns: 1;
+        }
+        article > p{
+            text-indent: 0px;
+            padding: 10px 130px;
+            font-weight: 600;
+        }
+  }
+  @media screen and (max-width: 550px) {
+        article > p{
+            text-indent: 0px;
+            padding: 10px 100px;
+            font-weight: 600;
         }
   }
   @media screen and (max-width: 500px) {
